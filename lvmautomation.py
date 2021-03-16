@@ -6,7 +6,14 @@ c = 'y'
 c = input("press y to continue: ")
 while(c == 'y'  or c == 'Y'):
    print("\nHere are your options:")
-   print("1. To see the no. of disks attached..                                           2. to create a new physical volume..                                            3. To display physical volume..                                                 4. To create a new volume group..                                               5. To display volume group..                                                    6. To create a new logical volume..                                             7. To display logical volume..                                                  8. To extend the logical volume..")
+   print("1. To see the no. of disks attached..                                           
+          2. to create a new physical volume..                                           
+          3. To display physical volume..                                                 
+          4. To create a new volume group..                                               
+          5. To display volume group..                                                    
+          6. To create a new logical volume..                                             
+          7. To display logical volume..                                                  
+          8. To extend the logical volume..")
 
    ch = input("\nPress any one of the above choice:")
    if ch == '1':
